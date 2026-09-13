@@ -124,6 +124,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Clinic Management System.cpp" />
+    <ClCompile Include="PatientVisitDetails.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Doctor.h" />
+    <ClInclude Include="DoctorSystem.h" />
+    <ClInclude Include="Fee.h" />
+    <ClInclude Include="History.h" />
+    <ClInclude Include="Patient.h" />
+    <ClInclude Include="PatientSystem.h" />
+    <ClInclude Include="PatientVisitDetails.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="WaitingRoom.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

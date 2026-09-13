@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Patient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|solutionrelative:Patient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Clinic Management System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|solutionrelative:Clinic Management System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|solutionrelative:Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\WaitingRoom.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|solutionrelative:WaitingRoom.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Fee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|solutionrelative:Fee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\PatientSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|solutionrelative:PatientSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\DoctorSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|solutionrelative:DoctorSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Doctor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|solutionrelative:Doctor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\PatientVisitDetails.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|solutionrelative:PatientVisitDetails.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\History.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|solutionrelative:History.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\PatientVisitDetails.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D7D2269-953D-41C6-B229-0A1085A342C0}|Clinic Management System.vcxproj|solutionrelative:PatientVisitDetails.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +54,138 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WaitingRoom.h",
+              "DocumentMoniker": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\WaitingRoom.h",
+              "RelativeDocumentMoniker": "WaitingRoom.h",
+              "ToolTip": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\WaitingRoom.h",
+              "RelativeToolTip": "WaitingRoom.h",
+              "ViewState": "AgIAAKQAAAAAAAAAAADwv7sAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-13T22:16:24.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Fee.h",
+              "DocumentMoniker": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Fee.h",
+              "RelativeDocumentMoniker": "Fee.h",
+              "ToolTip": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Fee.h",
+              "RelativeToolTip": "Fee.h",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvyIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-13T22:15:13.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatientSystem.h",
+              "DocumentMoniker": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\PatientSystem.h",
+              "RelativeDocumentMoniker": "PatientSystem.h",
+              "ToolTip": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\PatientSystem.h",
+              "RelativeToolTip": "PatientSystem.h",
+              "ViewState": "AgIAAGEAAACAZmZmZiYwwJQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-13T22:12:00.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DoctorSystem.h",
+              "DocumentMoniker": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\DoctorSystem.h",
+              "RelativeDocumentMoniker": "DoctorSystem.h",
+              "ToolTip": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\DoctorSystem.h",
+              "RelativeToolTip": "DoctorSystem.h",
+              "ViewState": "AgIAAGsAAAAAAAAAAADwv4IAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-13T22:09:22.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Doctor.h",
+              "DocumentMoniker": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Doctor.h",
+              "RelativeDocumentMoniker": "Doctor.h",
+              "ToolTip": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Doctor.h",
+              "RelativeToolTip": "Doctor.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvx0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-13T22:07:42.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PatientVisitDetails.cpp",
+              "DocumentMoniker": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\PatientVisitDetails.cpp",
+              "RelativeDocumentMoniker": "PatientVisitDetails.cpp",
+              "ToolTip": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\PatientVisitDetails.cpp",
+              "RelativeToolTip": "PatientVisitDetails.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-13T22:04:40.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "History.h",
+              "DocumentMoniker": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\History.h",
+              "RelativeDocumentMoniker": "History.h",
+              "ToolTip": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\History.h",
+              "RelativeToolTip": "History.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-13T22:02:08.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PatientVisitDetails.h",
+              "DocumentMoniker": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\PatientVisitDetails.h",
+              "RelativeDocumentMoniker": "PatientVisitDetails.h",
+              "ToolTip": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\PatientVisitDetails.h",
+              "RelativeToolTip": "PatientVisitDetails.h",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAUwEwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-13T21:58:05.482Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Patient.h",
+              "DocumentMoniker": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Patient.h",
+              "RelativeDocumentMoniker": "Patient.h",
+              "ToolTip": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Patient.h",
+              "RelativeToolTip": "Patient.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-13T21:54:48.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.h",
+              "DocumentMoniker": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Person.h",
+              "RelativeDocumentMoniker": "Person.h",
+              "ToolTip": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Person.h",
+              "RelativeToolTip": "Person.h",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvycAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-13T21:52:12.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Clinic Management System.cpp",
               "DocumentMoniker": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Clinic Management System.cpp",
               "RelativeDocumentMoniker": "Clinic Management System.cpp",
               "ToolTip": "C:\\Users\\COMPUTER LAND\\Desktop\\Clinic Management System\\Clinic Management System cpp\\Clinic Management System.cpp",
               "RelativeToolTip": "Clinic Management System.cpp",
-              "ViewState": "AgIAAKwCAADAZmZmZqYowOkBAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAMzMzMzMrwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-09-11T10:19:19.572Z",
               "EditorCaption": ""
