@@ -85,7 +85,6 @@ public:
 
         cout << "\n";
     }
-
     void Search(int id)
     {
         Sort();
@@ -95,6 +94,12 @@ public:
         int mid = 0;
         int counter = 0;
 
+        if (_patients.size() == 0)
+        {
+            cout << "No patients found.\n\n";
+            return;
+        }
+
         while (beg <= end)
         {
             mid = (beg + end) / 2;
@@ -102,9 +107,17 @@ public:
 
             if (id == _patients[mid].GetID())
             {
+                cout << "\nPatient found!\n";
+                cout << "---------------------------------\n";
+                cout << "ID    : " << _patients[mid].GetID() << "\n";
+                cout << "Name  : " << _patients[mid].GetName() << "\n";
+                cout << "Age   : " << _patients[mid].GetAge() << "\n";
+                cout << "Phone : " << _patients[mid].GetPhone() << "\n";
+                cout << "---------------------------------\n";
+
                 cout << "Found in "
                     << counter
-                    << " comparisons   [binary search]\n\n";
+                    << " comparisons [binary search]\n\n";
 
                 return;
             }

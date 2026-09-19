@@ -15,7 +15,7 @@ private:
     string _doctor;
     string _diagnosis;
     double _fee;
-    State _state;
+    string _state;
     Patient* _patient;
 
 public:
@@ -23,10 +23,15 @@ public:
         string doctor,
         string diagnosis,
         double fee,
-        State state,
+        string state,
         Patient* patient
     )
     {
+        if (doctor.empty()) throw exception();
+        if (diagnosis.empty()) throw exception();
+        if (fee < 0) throw exception();
+        if (state.empty()) throw exception();
+        if (patient == nullptr) throw exception();
         _date = time(0);
         _doctor = doctor;
         _diagnosis = diagnosis;
@@ -67,7 +72,7 @@ public:
         return _fee;
     }
 
-    State GetState()
+    string GetState()
     {
         return _state;
     }

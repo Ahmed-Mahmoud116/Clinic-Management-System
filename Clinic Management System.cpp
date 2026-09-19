@@ -14,32 +14,7 @@
 #include "PatientSystem.h"
 #include "Fee.h"
 #include "WaitingRoom.h"
-
 using namespace std;
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
 vector<Patient> PatientSystem::_patients;
 vector<PatientVisitDetails> WaitingRoom::_waitingPatients;
 
@@ -77,9 +52,9 @@ void PatientMenu()
             cin >> age;
 
             string name, phone;
-
+            cin.ignore();
             cout << "Name: ";
-            cin >> name;
+            getline(cin, name);
 
             cout << "Phone: ";
             cin >> phone;
@@ -161,6 +136,7 @@ void DoctorMenu()
     cout << "1. Add doctor\n"
         << "2. View all doctors\n"
         << "3. Delete doctor\n"
+        <<"4. Search for a doctor\n"
         << "0. Back\n";
     cout << "----------------------------------------------\n";
 
@@ -178,16 +154,18 @@ void DoctorMenu()
         {
         case 1:
         {
+            cin.ignore();
             cout << "Name: ";
 
             string specialization, name;
             double consultationFee;
 
-            cin >> name;
+            getline(cin, name);
+            cin.ignore();
 
             cout << "Specialization: ";
-            cin >> specialization;
-
+            getline(cin, specialization);
+            cin.ignore();
             cout << "Consultation fee: ";
             cin >> consultationFee;
 
@@ -218,6 +196,14 @@ void DoctorMenu()
             break;
         }
 
+        case 4:
+        {
+            cout << "ID: ";
+            int id;
+            cin >> id;
+            ds.Search(id);
+            break;
+        }
         case 0:
             return;
 
@@ -239,7 +225,8 @@ void WaitingRoomMenu()
     cout << "----------------------------------------------\n";
 
     int Choice;
-    WaitingRoom w;
+    DoctorSystem ds;
+    WaitingRoom w(ds);
 
     while (true)
     {

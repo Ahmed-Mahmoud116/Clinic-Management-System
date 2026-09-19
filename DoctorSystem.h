@@ -86,7 +86,6 @@ public:
             }
         }
     }
-
     void Search(int id)
     {
         Sort();
@@ -109,9 +108,17 @@ public:
 
             if (id == _doctors[mid].GetID())
             {
+                cout << "\nDoctor found!\n";
+                cout << "---------------------------------\n";
+                cout << "ID             : " << _doctors[mid].GetID() << "\n";
+                cout << "Name           : " << _doctors[mid].GetName() << "\n";
+                cout << "Specialization : " << _doctors[mid].GetSpecialization() << "\n";
+                cout << "Fee            : " << _doctors[mid].GetFee() << "\n";
+                cout << "---------------------------------\n";
+
                 cout << "Found in "
                     << counter
-                    << " comparisons   [binary search]\n\n";
+                    << " comparisons [binary search]\n\n";
 
                 return;
             }
@@ -127,5 +134,18 @@ public:
         }
 
         cout << "[ERROR] Doctor was not found\n\n";
+    }
+
+    Doctor* GetDoctorByName(string name)
+    {
+        for (int i = 0; i < _doctors.size(); i++)
+        {
+            if (_doctors[i].GetName() == name)
+            {
+                return &_doctors[i];
+            }
+        }
+
+        return nullptr;
     }
 };

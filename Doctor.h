@@ -13,7 +13,7 @@ public:
     {
         if (specialization.empty())
             throw exception();
-
+        if (fee <= 0) throw exception();
         _specialization = specialization;
         _consultationFee = fee;
     }

@@ -11,13 +11,13 @@ private:
     double _fee;
 
 public:
-    void Calculatefee(State s)
+    void Calculatefee(string s)
     {
-        if (s == Normal)
+        if (s == "Normal")
         {
             _fee = 200;
         }
-        else if (s == Emergency)
+        else if (s == "Emergency")
         {
             _fee = 400;
         }

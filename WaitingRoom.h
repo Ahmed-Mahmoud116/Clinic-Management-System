@@ -7,6 +7,7 @@
 
 #include "PatientVisitDetails.h"
 #include "PatientSystem.h"
+#include "DoctorSystem.h"
 #include "Fee.h"
 
 using namespace std;
@@ -16,10 +17,12 @@ class WaitingRoom
 private:
     static vector<PatientVisitDetails> _waitingPatients;
     vector<Patient>& _patients;
+    DoctorSystem& _doctorSystem;
 
 public:
-    WaitingRoom()
-        : _patients(PatientSystem::GetPatients())
+    WaitingRoom(DoctorSystem& doctorSystem)
+        : _patients(PatientSystem::GetPatients()),
+        _doctorSystem(doctorSystem)
     {
     }
 
@@ -32,7 +35,7 @@ public:
         }
 
         string doctor, diagnosis;
-        State state;
+        string state;
         int Choose;
 
         for (int i = 0; i < _patients.size(); i++)
@@ -47,11 +50,11 @@ public:
                 switch (Choose)
                 {
                 case 1:
-                    state = Emergency;
+                    state = "Emergency";
                     break;
 
                 case 2:
-                    state = Normal;
+                    state = "Normal";
                     break;
 
                 default:
@@ -59,11 +62,22 @@ public:
                     return;
                 }
 
+                cin.ignore();
+
                 cout << "Doctor: ";
-                cin >> doctor;
+                getline(cin, doctor);
+
+                Doctor* selectedDoctor =
+                    _doctorSystem.GetDoctorByName(doctor);
+
+                if (selectedDoctor == nullptr)
+                {
+                    cout << "[ERROR] Doctor was not found.\n\n";
+                    return;
+                }
 
                 cout << "Diagnosis: ";
-                cin >> diagnosis;
+                getline(cin, diagnosis);
 
                 Fee f;
                 f.Calculatefee(state);
@@ -99,8 +113,8 @@ public:
             for (int j = 0; j < _waitingPatients.size() - i - 1; j++)
             {
                 if (
-                    (_waitingPatients[j].GetState() == Normal &&
-                        _waitingPatients[j + 1].GetState() == Emergency)
+                    (_waitingPatients[j].GetState() == "Normal" &&
+                        _waitingPatients[j + 1].GetState() == "Emergency")
                     ||
                     (_waitingPatients[j].GetState() ==
                         _waitingPatients[j + 1].GetState() &&
