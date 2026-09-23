@@ -161,13 +161,12 @@ public:
 
     void CallPatient()
     {
-        SortByPriority();
-
         if (_waitingPatients.empty())
         {
             cout << "No waiting patients.\n\n";
             return;
         }
+        SortByPriority();
 
         cout << "\n>>> NOW CALLING: "
             << _waitingPatients[0].GetPatient()

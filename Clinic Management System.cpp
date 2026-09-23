@@ -129,7 +129,7 @@ void PatientMenu()
     }
 }
 
-void DoctorMenu()
+void DoctorMenu(DoctorSystem& ds)
 {
     cout << "*** DOCTORS MENU ***\n";
     cout << "----------------------------------------------\n";
@@ -141,7 +141,7 @@ void DoctorMenu()
     cout << "----------------------------------------------\n";
 
     int Choice;
-    DoctorSystem ds;
+    
 
     while (true)
     {
@@ -155,17 +155,17 @@ void DoctorMenu()
         case 1:
         {
             cin.ignore();
+
             cout << "Name: ";
 
             string specialization, name;
             double consultationFee;
 
             getline(cin, name);
-            cin.ignore();
 
             cout << "Specialization: ";
             getline(cin, specialization);
-            cin.ignore();
+
             cout << "Consultation fee: ";
             cin >> consultationFee;
 
@@ -214,7 +214,7 @@ void DoctorMenu()
     }
 }
 
-void WaitingRoomMenu()
+void WaitingRoomMenu(DoctorSystem& ds)
 {
     cout << "*** WAITING ROOM - THE CORE FEATURE ***\n";
     cout << "----------------------------------------------\n";
@@ -225,7 +225,7 @@ void WaitingRoomMenu()
     cout << "----------------------------------------------\n";
 
     int Choice;
-    DoctorSystem ds;
+    
     WaitingRoom w(ds);
 
     while (true)
@@ -273,7 +273,7 @@ void WaitingRoomMenu()
 int main()
 {
     int Choice;
-
+    DoctorSystem ds;
     srand(time(0));
 
     while (true)
@@ -298,11 +298,11 @@ int main()
             break;
 
         case 2:
-            DoctorMenu();
+            DoctorMenu(ds);
             break;
 
         case 3:
-            WaitingRoomMenu();
+            WaitingRoomMenu(ds);
             break;
 
         case 0:
